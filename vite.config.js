@@ -4,8 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/estradarojo-portfolio/',
   plugins: [react(), [ 
     tailwindcss(),
   ]],
-  base: 'https://github.com/EstradaRJ/Estrada-ROJO---portfolio',
+  build: {
+    outDir: 'build'
+  }
+  
 })
