@@ -22,7 +22,7 @@ function Projects() {
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0'>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src="/images/icons/StudyWatch.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/StudyWatch.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">Study Watch</div>
                                 <p className="text-gray-700 text-base">
@@ -37,7 +37,7 @@ function Projects() {
                     </div>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src="/images/icons/OrbikDesign.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/OrbikDesign.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">ORBIK Website</div>
                                 <p className="text-gray-700 text-base">
@@ -62,7 +62,7 @@ function Projects() {
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0'>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src="/images/icons/PowerBI.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/PowerBI.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">HHRR Summary</div>
                                 <p className="text-gray-700 text-base">
@@ -76,7 +76,7 @@ function Projects() {
                     </div>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src="/images/icons/QlikSense.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/QlikSense.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">Sales Sumary</div>
                                 <p className="text-gray-700 text-base">
@@ -98,7 +98,7 @@ function Projects() {
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0 pb-25'>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src="/images/icons/GymReact.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/GymReact.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">Gym Website</div>
                                 <p className="text-gray-700 text-base">
@@ -112,7 +112,7 @@ function Projects() {
                     </div>
                     <div className='align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src="/images/icons/Agropecuando.png" alt="Sunset in the mountains" />
+                            <img className="w-full" src="/images/Agropecuando.png" alt="Sunset in the mountains" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">Agricultural and livestock blog</div>
                                 <p className="text-gray-700 text-base">
