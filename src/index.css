@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default;
+  }
+
+
+@theme {
+    --font-kodchasan: "Kodchasan", "sans-serif";
+    
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    }
+
+    @layer utilities {
+      .shadow-red-600{
+        box-shadow: 31px 26px 0px -20px #dc2626;
+      }
+    }
+
