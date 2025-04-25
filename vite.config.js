@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [react(), [ 
     tailwindcss(),
   ]],
+  base: 'https://github.com/EstradaRJ/Estrada-ROJO---portfolio',
 })
