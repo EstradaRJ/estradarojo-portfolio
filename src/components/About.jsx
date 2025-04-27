@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ScrollToTopButton from './ScrollToTopButton';
 
 function About() {
   useEffect(() => {
     AOS.init({
-      duration: 3000, // Animation duration in milliseconds
-        easing: 'ease-in-out', // Animation easing function
+      duration: 1000, // Animation duration in milliseconds
+      easing: 'ease-in-out', // Animation easing function
 
     });
   }, []); // Empty dependency array ensures this runs only once
@@ -22,11 +23,17 @@ function About() {
           </div>
         </div>
         <div className="min-h-[100px] pb-10">
-          <p className="text-red-700 font-light p-0 text-center md:text-xl md:px-8 lg:px-40 lg:text-xl" data-aos="fade-up">
-            “I am a Software Development and Management Engineer with experience in databases, web development, and data analysis. I work with MySQL, C#, and ASP.NET in Visual Studio Code, as well as tools like Power BI, Qlik Sense, and Excel. I am proactive, self-taught, and capable of leading high-performance teams. With over a year as an IT teacher, I have developed academic, design, and personal projects, always focused on optimization and process improvement. “
+          <p className="text-red-600 font-light p-0 text-center md:text-xl md:px-8 lg:px-40 lg:text-xl" data-aos="fade-up">
+          "I’m a Software Development and Management Engineer with experience in databases and web development, and currently 
+          exploring data analysis; I work with MySQL, C#, and ASP.NET in Visual Studio Code, and I’m familiarizing myself with 
+          tools like Power BI, Qlik Sense, and Excel; proactive and self-taught, I lead high-performance teams and develop 
+          projects focused on process optimization and continuous improvement."
           </p>
         </div>
       </div>
+
+      <ScrollToTopButton />
+
     </div>
   );
 }

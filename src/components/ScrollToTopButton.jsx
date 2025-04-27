@@ -4,7 +4,7 @@ const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const threshold = 20;
+    const threshold = 100; // Adjust this value as needed
 
     const handleScroll = () => {
       const scrollTop =
@@ -29,9 +29,9 @@ const ScrollToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-5 right-5 p-3 rounded-full bg-red-700 border-2 border-white text-white cursor-pointer transition-opacity duration-300 ${
+      className={`fixed bottom-5 right-5 p-3 rounded-full bg-red-600 border-2 border-white text-white cursor-pointer transition-opacity duration-300 z-50 ${
         isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
+      } sm:bottom-3 sm:right-3 sm:p-2`}
       aria-label="Back to top"
     >
       Top

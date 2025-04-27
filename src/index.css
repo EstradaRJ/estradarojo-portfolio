@@ -17,7 +17,7 @@
     }
 
     @layer utilities {
-      .shadow-red-600{
+      .shadow-custom {
         box-shadow: 31px 26px 0px -20px #dc2626;
       }
     }

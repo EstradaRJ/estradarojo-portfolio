@@ -20,13 +20,13 @@ function Experience() {
                 <div>
                     <div className='min-h-[100px]  align-items-center flex justify-center items-center'>
                         <div>
-                            <h1 className='text-4xl text-red-700 font-bold h-auto px-auto'>Experience</h1>
+                            <h1 className='text-4xl text-red-600 font-bold h-auto px-auto'>Experience</h1>
                         </div>
                     </div>
                 </div>
 
 
-                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical data-theme-light" data-aos="fade-up">
+                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical data-theme-light">
                     <li>
                         <div className="timeline-middle">
                             <svg
@@ -42,7 +42,7 @@ function Experience() {
                                 />
                             </svg>
                         </div>
-                        <div className="timeline-start mb-10 md:text-end">
+                        <div className="timeline-start mb-10 md:text-end" data-aos="fade-right">
                             <div className="text-lg font-black"> 2017 - 2021 Agricultural sector Manager</div>
                             <p className="font-mono italic">Family Business</p>
                             Managed irrigation maintenance and task assignments
@@ -67,7 +67,7 @@ function Experience() {
                                 />
                             </svg>
                         </div>
-                        <div className="timeline-end md:mb-10">
+                        <div className="timeline-end mb-10" data-aos="fade-left">
                             <div className="text-lg font-black">2022 Website Designer </div>
                             <p className="font-mono italic">National Institute of Educational Robotics (INIRE) </p>
 
@@ -92,7 +92,7 @@ function Experience() {
                                 />
                             </svg>
                         </div>
-                        <div className="timeline-start mb-10 md:text-end">
+                        <div className="timeline-start mb-10 md:text-end" data-aos="fade-right">
                             <div className="text-lg font-black"> 2023 Web Depeloper</div>
                             <p className="font-mono italic">BeeHive Systems</p>
 
@@ -118,7 +118,7 @@ function Experience() {
                                 />
                             </svg>
                         </div>
-                        <div className="timeline-end md:mb-10">
+                        <div className="timeline-end mb-10" data-aos="fade-left">
                             <div className="text-lg font-black">2023 - 2024 IT Teacher </div>
                             <p className="font-mono italic">Technological University of Nayarit</p>
 
@@ -145,8 +145,8 @@ function Experience() {
                                 />
                             </svg>
                         </div>
-                        <div className="animate-bounce timeline-start mb-10 md:text-end">
-                            <div className="text-lg font-black">Data Analyst / Software Developer</div>
+                        <div className=" timeline-start mb-10 md:text-end" data-aos="fade-right">
+                            <div className="animate-bounce text-lg font-black">Data Analyst / Software Developer</div>
                             <p className="font-mono italic">Today - Indefinitely</p>
                             Currently looking for a job where I can learn as much as possible, contributing my best to the company.
                         </div>
@@ -164,12 +164,12 @@ function Experience() {
                 <div className='order-3 lg:order-2 text-4xl font-bold min-h-[100px]  align-items-center flex justify-center items-center'>
                     Languages
                 </div>
-                <div className='order-2 lg:order-4 min-h-[100px]  align-items-center flex justify-center items-center' data-aos="fade-right">
-                    <img className='rounded-2xl border-2 border-red-700 p-11' src="images/icons/ImagesTools.png" />
+                <div className='order-2 lg:order-4 min-h-[100px]  align-items-center flex justify-center items-center' >
+                    <img className='transition duration-500 hover:scale-105 rounded-2xl border-2 border-red-600 p-11' src="images/icons/ImagesTools.png" />
                 </div>
 
-                <div className='order-4 lg:order-4 min-h-[100px]  align-items-center flex justify-center items-center' data-aos="fade-left">
-                    <img className='rounded-2xl border-2 border-red-700 p-8' src="images/icons/ImagesLanguages.png" />
+                <div className='order-4 lg:order-4 min-h-[100px]  align-items-center flex justify-center items-center' >
+                    <img className='transition duration-500 hover:scale-105 rounded-2xl border-2 border-red-600 p-8' src="images/icons/ImagesLanguages.png" />
                 </div>
 
             </div>
@@ -181,25 +181,26 @@ function Experience() {
 
                 </div>
 
-                <div className='p-4 md:p-10 lg:px-35 align-items-center flex justify-center items-center' data-aos="fade-up-right">
-                    <img src="images/ImageCV.png" className='rounded-2xl shadow-red-600 border-2 border-red-700' />
-
-                </div>
-
                 <div className='py-10 grid grid-cols-1 rows-2 gap-6 sm:grid-cols-2 sm:rows-1 bg-white align-items-center justify-center items-center text-lg'>
                     <div className='animate-bounce order-1 sm:order-1 flex justify-center sm:justify-end'>
-                        <button onClick={() => { downloadFile(pdfUrl) }} type="button" class="rounded-2xl text-white bg-red-700 hover:bg-red-800 focus:ring-4 font-medium px-12 py-2.5 ">
+                        <button onClick={() => { downloadFile(pdfUrl) }} type="button" class="cursor-pointer rounded-2xl text-white bg-red-600 hover:bg-red-800 focus:ring-4 font-medium px-12 py-2.5 ">
                             Download
                         </button>
                     </div>
                     <div className='order-2 sm:order-2 flex justify-center sm:justify-start'>
-                        <button type="button" class="rounded-2xl text-white bg-red-700 hover:bg-red-800 focus:ring-4 font-medium px-10 py-2.5">
+                        <button type="button" class="rounded-2xl text-white bg-red-600 hover:bg-red-800 focus:ring-4 font-medium px-10 py-2.5">
                             <a href="mailto:jonathanestrada02@hotmail.com">
                                 Contact Me
                             </a>
                         </button>
                     </div>
                 </div>
+
+                <div className='p-4 md:p-10 lg:px-35 align-items-center flex justify-center items-center'>
+                    <img src="images/ImageCV.png" className='rounded-2xl border-2 border-red-600 lg:shadow-[3rem_3rem_0rem_-0.2rem_#dc2626] ' />
+                </div>
+
+                
 
             </div>
 

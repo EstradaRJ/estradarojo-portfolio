@@ -15,9 +15,12 @@ function Footer() {
                                     to="Home"
                                     smooth={true}
                                     duration={1000}
-                                    className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 md:hover:text-red-900 cursor-pointer"
+                                    className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0  cursor-pointer"
                                 >
-                                    Home
+                                    <p class="group relative w-max">
+                                        <span>Home</span>
+                                        <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+                                    </p>
                                 </Link>
                             </li>
                             <li>
@@ -25,9 +28,12 @@ function Footer() {
                                     to="AboutMe"
                                     smooth={true}
                                     duration={1000}
-                                    className="block py-2 px-3 rounded-sm md:hover:text-red-900 md:p-0 cursor-pointer"
+                                    className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
-                                    About Me
+                                    <p class="group relative w-max">
+                                        <span>About Me</span>
+                                        <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+                                    </p>
                                 </Link>
                             </li>
                             <li>
@@ -35,9 +41,12 @@ function Footer() {
                                     to="Projects"
                                     smooth={true}
                                     duration={1000}
-                                    className="block py-2 px-3 rounded-sm md:hover:text-red-900 md:p-0 cursor-pointer"
+                                    className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
-                                    Projects
+                                    <p class="group relative w-max">
+                                        <span>Projects</span>
+                                        <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+                                    </p>
                                 </Link>
                             </li>
                             <li>
@@ -45,9 +54,12 @@ function Footer() {
                                     to="CV"
                                     smooth={true}
                                     duration={1000}
-                                    className="block py-2 px-3 rounded-sm md:hover:text-red-900 md:p-0 cursor-pointer"
+                                    className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
-                                    CV
+                                    <p class="group relative w-max">
+                                        <span>CV</span>
+                                        <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+                                    </p>
                                 </Link>
                             </li>
                         </ul>
@@ -65,7 +77,7 @@ function Footer() {
                         <p className=" text-xl text-bold px-4 py-2 text-center">Estrada<span className='font-bold'>ROJO</span></p>
                         <button data-collapse-toggle="navbar"
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-red-500 rounded-lg md:hidden hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-200" aria-expanded="false">
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-red-600 rounded-lg md:hidden hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-200" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
                             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
