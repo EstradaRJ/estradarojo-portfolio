@@ -1,0 +1,77 @@
+{
+  "aboutMeTitle": "Acerca de mí",
+  "aboutMeText": "Ingeniero en Desarrollo y Gestión de Software con sólida experiencia en bases de datos y desarrollo web, actualmente ampliando mi especialización en análisis de datos. Competente en SQL, C#, ASP.NET y recientemente en JavaScript. Actualmente estoy fortaleciendo mis habilidades con herramientas de análisis de datos como Power BI, Qlik Sense y Excel. Como profesional proactivo y autodidacta, lidero equipos de alto rendimiento y desarrollo proyectos enfocados en la optimización de procesos y la mejora continua.",
+  "navHome": "Inicio",
+  "navAbout": "Acerca de mí",
+  "navProjects": "Proyectos",
+  "navCV": "CV",
+  "selectlang" : "Translate:",
+  "heroTitle1": "Ingeniero en Desarrollo de",
+  "heroTitle2": "Software /",
+  "heroTitle3": "Analisista de Datos: ",
+  "heroTypewriter": ["Practicante", "Entusiasta", "Fanático"],
+  "heroDescription1": "Ingeniero en Desarrollo y Gestión de Software,",
+  "heroDescription2": "actualmente explorando el increíble mundo del",
+  "heroDescription3": "Análisis de Datos.",
+  "heroButton": "Contáctame",
+  "experienceTitle": "Experiencia",
+  "experienceItems": [
+    {
+      "title": "2017 - 2021 Gerente del Sector Agrícola",
+      "company": "Negocio Familiar",
+      "description": "Gestioné la asignación de tareas y supervisé el mantenimiento de los sistemas de riego para 15 subordinados, logrando un aumento de alrededor del 20% en la producción, mientras aseguraba la calidad del producto y una correcta asignación de inventarios.",
+      "position": "start",
+      "animation": "fade-right"
+    },
+    {
+      "title": "2022 Diseñador de Sitios Web",
+      "company": "Instituto Nacional de Robótica Educativa (INIRE)",
+      "description": "Realicé la propuesta conceptual y el diseño gráfico de un sitio web empresarial, basado en los requerimientos del cliente.",
+      "position": "end",
+      "animation": "fade-left"
+    },
+    {
+      "title": "2023 Desarrollador Web",
+      "company": "BeeHive Systems",
+      "description": "Desarrollé un módulo web para el control y monitoreo de desarrollos residenciales, basado en el software propietario de la empresa.",
+      "position": "start",
+      "animation": "fade-right"
+    },
+    {
+      "title": "2023 - 2024 Profesor de TI",
+      "company": "Universidad Tecnológica de Nayarit",
+      "description": "Diseñé, desarrollé e implementé planes de estudio para estudiantes de TSU e Ingeniería, en materias como bases de datos, computación en la nube y desarrollo de software, logrando una tasa de satisfacción del 96% en la evaluación docente.",
+      "position": "end",
+      "animation": "fade-left"
+    },
+    {
+      "title": "Analista de Datos / Desarrollador de Software",
+      "company": "Hoy - Indefinidamente",
+      "description": "Actualmente busco una oportunidad laboral donde pueda seguir aprendiendo y aportar lo mejor de mí al crecimiento de la empresa.",
+      "position": "start",
+      "animation": "fade-right"
+    }
+  ],
+  "languagesTitle": "Lenguajes",
+  "toolsTitle": "Herramientas",
+  "cvTitle": "Currículum Vitae",
+  "downloadButtones": "Ingles",
+  "downloadButtonen": "Español",
+  "projectsTitle": "Proyectos",
+  "graphicDesign": "Diseño Gráfico",
+  "studyWatchTitle": "Reloj de Estudio",
+  "studyWatchDescription": "Mockups diseñados para una aplicación para dispositivos wearables, adaptada para el Apple Watch. Los mockups muestran una interfaz limpia e intuitiva optimizada para las dimensiones de pantalla del Apple Watch, asegurando una experiencia de usuario fluida.",
+  "orbikTitle": "Sitio Web ORBIK",
+  "orbikDescription": "Diseño de sitio web creado para el Instituto Nacional de Robótica Educativa (INIRE). El proyecto tenía como objetivo proponer un diseño conceptual y gráfico para el sitio web de la organización, sirviendo como base para el desarrollo futuro.",
+  "dataAnalysis": "Análisis de Datos",
+  "hrrrSummaryTitle": "Resumen de RRHH",
+  "hrrrSummaryDescription": "Dashboard en Power BI que resume datos de RRHH, incluyendo estadísticas de empleados, como nivel educativo, departamento, ubicación y más. Proporciona información para la toma de decisiones de RRHH.",
+  "salesSummaryTitle": "Resumen de Ventas",
+  "salesSummaryDescription": "Un panel de ventas dinámico e interactivo creado con Qlik Cloud. Proporciona una visión general completa del rendimiento de ventas, incluyendo ingresos, márgenes de beneficio y tendencias.",
+  "softwareDevelopment": "Desarrollo de Software",
+  "gymWebsiteTitle": "Sitio Web de Gimnasio",
+  "gymWebsiteDescription": "Sitio web basado en React. Sitio web estático para un gimnasio, principalmente con fines publicitarios, con un menú de servicios y un formulario de contacto.",
+  "agriculturalBlogTitle": "Blog de Agricultura y Ganadería",
+  "agriculturalBlogDescription": "Hecho con Laravel y Bootstrap. Blog simple para compartir opiniones e información sobre agricultura y ganadería.",
+  "seeProject": "Ver Proyecto"
+}

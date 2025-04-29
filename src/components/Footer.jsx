@@ -1,7 +1,8 @@
+import { t } from 'i18next'
 import React from 'react'
 import { Link } from 'react-scroll'
 
-function Footer() {
+function Footer( { translations }) {
     return (
         <div>
             <div className="font-kodchasan-regular w-full z-20 top-0 start-0 bg-red-700 font-display">
@@ -18,7 +19,7 @@ function Footer() {
                                     className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0  cursor-pointer"
                                 >
                                     <p class="group relative w-max">
-                                        <span>Home</span>
+                                        <span>{translations.navHome}</span>
                                         <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
                                     </p>
                                 </Link>
@@ -31,7 +32,7 @@ function Footer() {
                                     className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
                                     <p class="group relative w-max">
-                                        <span>About Me</span>
+                                        <span>{translations.navAbout}</span>
                                         <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
                                     </p>
                                 </Link>
@@ -44,7 +45,7 @@ function Footer() {
                                     className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
                                     <p class="group relative w-max">
-                                        <span>Projects</span>
+                                        <span>{translations.navProjects}</span>
                                         <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
                                     </p>
                                 </Link>
@@ -57,7 +58,7 @@ function Footer() {
                                     className="block py-2 px-3 rounded-sm  md:p-0 cursor-pointer"
                                 >
                                     <p class="group relative w-max">
-                                        <span>CV</span>
+                                        <span>{translations.navCV}</span>
                                         <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
                                     </p>
                                 </Link>

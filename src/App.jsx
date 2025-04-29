@@ -1,27 +1,37 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import About from './components/About.jsx'
-import Experience from './components/Experience.jsx'
-import Projects from './components/Projects.jsx'
-import Footer from './components/Footer.jsx'
-import 'flowbite';
-
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import en from './translations/en.json';
+import es from './translations/es.json';
+import Experience from './components/Experience';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [language, setLanguage] = useState('en');
+  const [translations, setTranslations] = useState(en);
+
+  const toggleLanguage = () => {
+    if (language === 'en') {
+      setLanguage('es');
+      setTranslations(es);
+    } else {
+      setLanguage('en');
+      setTranslations(en);
+    }
+  };
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Footer/>
+      <Navbar translations={translations} toggleLanguage={toggleLanguage} language={language} />
+      <Hero translations={translations} />
+      <About translations={translations} />
+      <Experience translations={translations} language={language} />
+      <Projects translations={translations} />
+      <Footer translations={translations} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

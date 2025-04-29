@@ -1,0 +1,81 @@
+{
+  "aboutMeTitle": "About Me",
+  "aboutMeText": "Software Development and Management Engineer with solid experience in databases and web development, currently expanding my expertise in data analysis. Proficient in SQL, C#, ASP.NET, and recently JavaScript. I am actively enhancing my skills with data analysis tools such as Power BI, Qlik Sense, and Excel. As a proactive and self-driven professional, I lead high-performance teams and develop projects focused on process optimization and continuous improvement.",
+  "navHome": "Home",
+  "navAbout": "About Me",
+  "navProjects": "Projects",
+  "navCV": "CV",
+  "selectlang" : "Traducir:",
+  "heroTitle1": "Software Developer",
+  "heroTitle2": "Engineer /",
+  "heroTitle3": "Data Analyst",
+  "heroTypewriter": [
+    "Trainee",
+    "Enthusiast",
+    "Fan"
+  ],
+  "heroDescription1": "Software Development and Management Engineer,",
+  "heroDescription2": "currently exploring the amazing world of",
+  "heroDescription3": "Data Analysis.",
+  "heroButton": "Message me",
+  "experienceTitle": "Experience",
+  "experienceItems": [
+    {
+      "title": "2017 - 2021 Agricultural Sector Manager",
+      "company": "Family Business",
+      "description": "Managed task assignments and supervised irrigation system maintenance for 15 subordinates, achieving a ~20% increase in production while ensuring product quality and accurate inventory allocation.",
+      "position": "start",
+      "animation": "fade-right"
+    },
+    {
+      "title": "2022 Website Designer",
+      "company": "National Institute of Educational Robotics (INIRE)",
+      "description": "Conceptual proposal and graphic design for a company website based on its requirements.",
+      "position": "end",
+      "animation": "fade-left"
+    },
+    {
+      "title": "2023 Web Developer",
+      "company": "BeeHive Systems",
+      "description": "Development of a web module for the control and monitoring of residential developments, based on the company's proprietary software.",
+      "position": "start",
+      "animation": "fade-right"
+    },
+    {
+      "title": "2023 - 2024 IT Teacher",
+      "company": "Technological University of Nayarit",
+      "description": "Developed and implemented study plans for TSU and Engineering students in databases, cloud computing, and software development, achieving a 96% teacher evaluation satisfaction rate.",
+      "position": "end",
+      "animation": "fade-left"
+    },
+    {
+      "title": "Data Analyst / Software Developer",
+      "company": "Today - Indefinitely",
+      "description": "Currently looking for a job where I can learn as much as possible, contributing my best to the company.",
+      "position": "start",
+      "animation": "fade-right"
+    }
+  ],
+  "languagesTitle": "Languages",
+  "toolsTitle": "Tools",
+  "cvTitle": "Curriculum Vitae",
+  "downloadButtones": "English",
+  "downloadButtonen": "Spanish",
+  "projectsTitle": "Projects",
+  "graphicDesign": "Graphic Design",
+  "studyWatchTitle": "Study Watch",
+  "studyWatchDescription": "A series of mockups designed for a wearable app tailored for the Apple Watch. The mockups showcase a clean and intuitive interface optimized for the Apple Watch's small screen, ensuring a seamless user experience.",
+  "orbikTitle": "ORBIK Website",
+  "orbikDescription": "A website design created for the National Institute of Educational Robotics (INIRE). The project aimed to propose conceptual and graphical design for the organization's website, serving as a foundation for future development.",
+  "dataAnalysis": "Data Analysis",
+  "hrrrSummaryTitle": "HHRR Summary",
+  "hrrrSummaryDescription": "A Power BI dashboard summarizing HR data, including employee stats, such as education level, department, location, and more. Provides actionable insights for HR decision-making.",
+  "salesSummaryTitle": "Sales Summary",
+  "salesSummaryDescription": "A dynamic and interactive sales dashboard created using Qlik Cloud. Provides a comprehensive overview of sales performance, including revenue, profit margins, and trends.",
+  "softwareDevelopment": "Software Development",
+  "gymWebsiteTitle": "Gym Website",
+  "gymWebsiteDescription": "React based website. A static website for a gym, mainly for advertising purposes, with a sort of menu of services and a contact form.",
+  "agriculturalBlogTitle": "Agricultural and livestock blog",
+  "agriculturalBlogDescription": "Made with Laravel and Bootstrap. A simple blog to share opinions and information about agriculture and livestock.",
+  "seeProject": "See Project"
+}

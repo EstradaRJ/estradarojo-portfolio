@@ -1,6 +1,7 @@
+import { t } from 'i18next'
 import React from 'react'
 
-function Projects() {
+function Projects({ translations }) {
     return (
         <div>
 
@@ -9,44 +10,42 @@ function Projects() {
             <div className='bg-red-50 font-display'>
                 <div className='min-h-[100px]  align-items-center flex justify-center items-center'>
                     <div>
-                        <h1 id='Projects' className='text-4xl font-bold h-auto px-auto'>Projects</h1>
+                        <h1 id='Projects' className='text-4xl font-bold h-auto px-auto'>{translations.projectsTitle}</h1>
                     </div>
                 </div>
 
                 <div className='w-5/6 mx-auto'>
                     <div className='text-2xl font-bold min-h-[100px] align-items-center flex items-center  justify-start'>
-                        Graphic Design
+                        {translations.graphicDesign}
                     </div>
                 </div>
 
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0'>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src="public/StudyWatch.png" alt="Study Watch" />
+                            <img className="w-full" src="images/StudyWatch.jpg" alt={translations.studyWatchTitle} />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">Study Watch</div>
+                                <div className="font-bold text-xl mb-2">{translations.studyWatchTitle}</div>
                                 <p className="text-black text-base">
-                                A series of mockups designed for a wearable app tailored for the Apple Watch. The mockups showcase a clean and intuitive interface optimized for the Apple Watch's small screen, ensuring a seamless user experience.                                </p>
-                            </div>
+                                    {translations.studyWatchDescription}</p>                            </div>
                             <div className="px-6 pt-4 pb-2">
                                 <span className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">
-                                    <a href='https://www.figma.com/design/Dn1q5XlbCCJSXQWNNO96Nh/Study-Watch?node-id=2-21&t=2bQdFi7XcAWDGTHL-1'>See Project</a>
+                                    <a href='https://www.figma.com/design/Dn1q5XlbCCJSXQWNNO96Nh/Study-Watch?node-id=2-21&t=2bQdFi7XcAWDGTHL-1'>{translations.seeProject}</a>
                                 </span>
                             </div>
                         </div>
                     </div>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src=" public/OrbikDesign.png" alt="ORBIK Website" />
+                            <img className="w-full" src=" images/OrbikDesign.jpg" alt="ORBIK Website" />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">ORBIK Website</div>
+                                <div className="font-bold text-xl mb-2">{translations.orbikTitle}</div>
                                 <p className="text-black text-base">
-                                    A website design created for the National Institute of Educational Robotics (INIRE). The project aimed to propose conceptual and graphical design for the organization's website, serving as a foundation for future development.
-                                </p>
+                                    {translations.orbikDescription}                                </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
                                 <span className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">
-                                    <a href='https://www.figma.com/design/zsoFcKPxjDcYUuqGoNStpZ/ORBIK?node-id=0-1&t=S09bZgSZa9BNZjpe-1'>See Project</a>
+                                    <a href='https://www.figma.com/design/zsoFcKPxjDcYUuqGoNStpZ/ORBIK?node-id=0-1&t=S09bZgSZa9BNZjpe-1'>{translations.seeProject}</a>
                                 </span>
                             </div>
                         </div>
@@ -55,35 +54,35 @@ function Projects() {
 
                 <div className='w-5/6 mx-auto'>
                     <div className='text-2xl font-bold min-h-[100px] align-items-center flex items-center  ljustify-start'>
-                        Data Analysis
+                        {translations.dataAnalysis}
                     </div>
                 </div>
 
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0'>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src=" public/PowerBI.png" alt="HHRR Summary" />
+                            <img className="w-full" src=" images/PowerBI.jpg" alt="HHRR Sumary" />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">HHRR Summary</div>
+                                <div className="font-bold text-xl mb-2">{translations.hrrrSummaryTitle}</div>
                                 <p className="text-black text-base">
-                                    A Power BI dashboard summarizing HR data, including employee stats, such as education level, department, location, and more. Provides actionable insights for HR decision-making.                                
-                                </p>
+                                    {translations.hrrrSummaryDescription}                                </p>
                             </div>
                             <button className="px-6 pt-4 pb-2">
-                                <a href="https://drive.google.com/file/d/17UB4OwK_iWhmYe4e3KBTXF2tru5AwzQ0/view?usp=drive_link" class="inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">See Project</a>
+                                <a href="https://drive.google.com/file/d/17UB4OwK_iWhmYe4e3KBTXF2tru5AwzQ0/view?usp=drive_link" class="inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">{translations.seeProject}</a>
                             </button>
                         </div>
                     </div>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src=" public/QlikSense.png" alt="Sales Sumary" />
+                            <img className="w-full" src=" images/QlikSense.jpg" alt="Sales Sumary" />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">Sales Sumary</div>
+                                <div className="font-bold text-xl mb-2">{translations.salesSummaryTitle}</div>
                                 <p className="text-black text-base">
-                                    A dynamic and interactive sales dashboard created using Qlik Cloud. Provides a comprehensive overview of sales performance, including revenue, profit margins, and trends.                                </p>
+                                    {translations.salesSummaryDescription}                                </p>
+
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <a href='https://drive.google.com/file/d/1zUEgpfKkDTSf3SnJwwrwHFxL8DPGkqvZ/view?usp=drive_link' className="inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">See Project</a>
+                                <a href='https://drive.google.com/file/d/1zUEgpfKkDTSf3SnJwwrwHFxL8DPGkqvZ/view?usp=drive_link' className="inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">{translations.seeProject}</a>
                             </div>
                         </div>
                     </div>
@@ -91,37 +90,35 @@ function Projects() {
 
                 <div className='w-5/6 mx-auto'>
                     <div className='text-2xl font-bold min-h-[100px] align-items-center flex items-center  justify-start'>
-                        Software Development
+                        {translations.softwareDevelopment}
                     </div>
                 </div>
 
                 <div className='grid grid-cols-1 rows-2 gap-8 lg:grid-cols-2 lg:gap-0 pb-25'>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg sm:justify-end">
-                            <img className="w-full" src=" public/GymReact.png" alt="Gym Website" />
+                            <img className="w-full" src=" images/GymReact.jpg" alt="Gym Website" />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">Gym Website</div>
+                                <div className="font-bold text-xl mb-2">{translations.gymWebsiteTitle}</div>
                                 <p className="text-black text-base">
-                                    React based website. A static website for a gym, mainly for advertising purposes, with a sort of menu of services and a contact form.
-                                </p>
+                                    {translations.gymWebsiteDescription}                                </p>
                             </div>
                             <button className="px-6 pt-4 pb-2">
-                                <a href="https://github.com/EstradaRJ/gymwebsite" className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">See Project</a>
+                                <a href="https://github.com/EstradaRJ/gymwebsite" className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold mr-2 mb-2">{translations.seeProject}</a>
                             </button>
                         </div>
                     </div>
                     <div className='transition duration-500 hover:scale-105 align-items-center flex justify-center'>
                         <div className="max-w-md rounded-2xl bg-white overflow-hidden shadow-lg">
-                            <img className="w-full" src=" public/Agropecuando.png" alt="Agricultural and livestock blog" />
+                            <img className="w-full" src=" images/Agropecuando.jpg" alt="Agricultural and livestock blog" />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">Agricultural and livestock blog</div>
+                                <div className="font-bold text-xl mb-2">{translations.agriculturalBlogTitle}</div>
                                 <p className="text-black text-base">
-                                     Made with Laravel and Bootstrap. A simple blog to share opinions and information about agriculture and livestock.
-                                    
-                                </p>
+                                    {translations.agriculturalBlogDescription}                                </p>
+                                
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <a href='https://github.com/EstradaRJ/Agropecuando' className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">See Project</a>
+                                <a href='https://github.com/EstradaRJ/Agropecuando' className="cursor-pointer inline-block bg-red-600 text-white rounded-2xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">{translations.seeProject}</a>
                             </div>
                         </div>
                     </div>

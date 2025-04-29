@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import ScrollToTopButton from './ScrollToTopButton';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
-
+const Navbar = ({ translations, toggleLanguage, language }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -27,11 +25,10 @@ const Navbar = () => {
                   duration={1000}
                   className="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 cursor-pointer"
                 >
-                  <p class="group relative w-max">
-                    <span>Home</span>
-                    <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
+                  <p className="group relative w-max">
+                    <span>{translations.navHome}</span>
+                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
                   </p>
-
                 </Link>
               </li>
               <li>
@@ -41,9 +38,9 @@ const Navbar = () => {
                   duration={1000}
                   className="block py-2 px-3 rounded-sm md:p-0 cursor-pointer"
                 >
-                  <p class="group relative w-max">
-                    <span>About Me</span>
-                    <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
+                  <p className="group relative w-max">
+                    <span>{translations.navAbout}</span>
+                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
                   </p>
                 </Link>
               </li>
@@ -54,9 +51,9 @@ const Navbar = () => {
                   duration={1000}
                   className="block py-2 px-3 rounded-sm md:p-0 cursor-pointer"
                 >
-                  <p class="group relative w-max">
-                    <span>Projects</span>
-                    <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
+                  <p className="group relative w-max">
+                    <span>{translations.navProjects}</span>
+                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
                   </p>
                 </Link>
               </li>
@@ -67,15 +64,14 @@ const Navbar = () => {
                   duration={1000}
                   className="block py-2 px-3 rounded-sm md:p-0 cursor-pointer"
                 >
-                  <p class="group relative w-max">
-                    <span>CV</span>
-                    <span class="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
+                  <p className="group relative w-max">
+                    <span>{translations.navCV}</span>
+                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
                   </p>
                 </Link>
               </li>
             </ul>
           </div>
-
           {/* Centered logo */}
           <div
             className={`order-2 md:order-2 mx-auto md:absolute md:left-1/2 md:transform md:-translate-x-1/2 ${isMenuOpen ? 'hidden' : 'flex'
@@ -88,11 +84,16 @@ const Navbar = () => {
 
           {/* Hamburger menu button */}
           <div className="order-3 font-bold text-lg flex md:order-3 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <p class="group relative w-max">
-              <span class="text-black">Estrada</span>
+            <button class="group relative w-max" onClick={toggleLanguage}>
+              <span class="text-black">{translations.selectlang} </span>
               <span class="text-red-600 absolute -bottom-1 left-0 w-0 transition-all h-0.5 bg-red-600 group-hover:w-full"></span>
-              <span class="text-red-600">ROJO</span>
-            </p>
+              <span class="text-red-600">{language === 'en' ? 'ES' : 'EN'}</span>
+
+              
+            </button>
+
+            
+
             <button
               onClick={toggleMenu}
               type="button"
