@@ -1,7 +1,7 @@
 import React from 'react'
 
-const pdfUrlen = 'public/cven.pdf';
-const pdfUrles = 'public/cves.pdf';
+const pdfUrlen = `${import.meta.env.BASE_URL}cven.pdf`;
+const pdfUrles = `${import.meta.env.BASE_URL}cves.pdf`;
 
 
 function Experience({ translations, language }) {
